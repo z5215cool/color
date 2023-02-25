@@ -1,0 +1,585 @@
+/* 隐藏所有滚动条 */
+::-webkit-scrollbar {
+    display: none;
+}
+/* 去掉超链接下划线 */
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+body{
+	background-attachment: fixed;
+	background-size: 100%;
+}
+.panes {
+	border: 2px solid #F1F4F9;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.cfont {
+	color: #54CDCC;
+	font-family: "century gothic";
+	font-weight: bold;
+	letter-spacing: 2.5px;
+}
+.fillet {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+.allheight {
+	height: 200px;
+}
+.circular {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.scroll-to-top {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  display: none;
+  z-index: 2000;
+  background-color: #44b2fe;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.scroll-to-top:before, .scroll-to-top:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 15px;
+  background-color: #fff;
+  height: 20px;
+  width: 5px;
+}
+.scroll-to-top:before {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: 28px;
+}
+.scroll-to-top:after {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 28px;
+}
+.scroll-to-top:focus {
+  outline: none;
+}
+.scroll-to-cnxiaobai {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  position: fixed;
+  bottom: 100px;
+  right: 30px;
+  display: none;
+  z-index: 2000;
+  background-color: #44b2fe;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.logo1 {background: #AAC9CE;}
+.logo2 {background: #B6B4C2;}
+.logo3 {background: #C9BBCB;}
+.logo4 {background: #E5C1CD;}
+.logo5 {background: #F3DBCF;}
+.logo6 {background: #80BEAF;}
+.logo7 {background: #B3DDD1;}
+.logo8 {background: #D1DCE2;}
+.logo9 {background: #F5B994;}
+.logo10 {background: #EE9C6C;}
+.logo11 {background: #CCABD8;}
+.logo12 {background: #8474A1;}
+.logo13 {background: #6EC6CA;}
+.logo14 {background: #08979D;}
+.logo15 {background: #055B5C;}
+.logo16 {background: #54CDCC;}
+.logo17 {background: #1F4F59;}
+.logo18 {background: #7EA00E;}
+.logo19 {background: #DCD964;}
+.logo20 {background: #213502;}
+.logo21 {background: #F5CEC7;}
+.logo22 {background: #E79796;}
+.logo23 {background: #FFC98B;}
+.logo24 {background: #FFB284;}
+.logo25 {background: #C6C09C;}
+.logo26 {background: #D9ECF2;}
+.logo27 {background: #F56A79;}
+.logo28 {background: #FF414D;}
+.logo29 {background: #1AA6B7;}
+.logo30 {background: #002D40;}
+.logo31 {background: #D2A9B0;}
+.logo32 {background: #E1C0D8;}
+.logo33 {background: #F1CFE5;}
+.logo34 {background: #A9A5A2;}
+.logo35 {background: #C8C6C9;}
+.logo36 {background: #86E3CE;}
+.logo37 {background: #DDE6A5;}
+.logo38 {background: #FFDD94;}
+.logo39 {background: #FA897B;}
+.logo40 {background: #CCABD8;}
+.logo41 {background: #E7E7E7;}
+.logo42 {background: #D1D1D1;}
+.logo43 {background: #B6B6B6;}
+.logo44 {background: #9B9B9B;}
+.logo45 {background: #586C7C;}
+.logo46 {background: #C4DEE7;}
+.logo47 {background: #DCEAF1;}
+.logo48 {background: #E4F0F2;}
+.logo49 {background: #D6DADF;}
+.logo50 {background: #384729;}
+.logo51 {background: #748369;}
+.logo52 {background: #B5CBAA;}
+.logo53 {background: #D3E2C8;}
+.logo54 {background: #E3E7DE;}
+.logo55 {background: #6F5E5E;}
+.logo56 {background: #C4BAB5;}
+.logo57 {background: #B4BEC8;}
+.logo58 {background: #CBE1E6;}
+.logo59 {background: #C1C1C1;}
+.logo60 {background: #90ADB3;}
+.logo61 {background: #A3C6CC;}
+.logo62 {background: #BDCFCF;}
+.logo63 {background: #BBB8A5;}
+.logo64 {background: #CED8C5;}
+.logo65 {background: #D4D5D3;}
+.logo66 {background: #8FADB3;}
+.logo67 {background: #F7C8CE;}
+.logo68 {background: #FFFBC7;}
+.logo69 {background: #EDF2C5;}
+.logo70 {background: #D2CCE6;}
+.logo71 {background: #E5C2DB;}
+.logo72 {background: #87CAAC;}
+.logo73 {background: #F19DB5;}
+.logo74 {background: #DC6A9A;}
+.logo75 {background: #D95097;}
+.logo76 {background: #C1DB81;}
+.logo77 {background: #F8C6BD;}
+.logo78 {background: #D5EAD8;}
+.logo79 {background: #EFEFEF;}
+.logo80 {background: #FBD8B5;}
+.logo81 {background: #BCE2E8;}
+.logo82 {background: #D7B4B1;}
+.logo83 {background: #98BED0;}
+.logo84 {background: #5F67AE;}
+.logo85 {background: #D1BADA;}
+.logo86 {background: #00A5A8;}
+.logo87 {background: #C5C0D7;}
+.logo88 {background: #F0EBBA;}
+.logo89 {background: #8C8BAA;}
+.logo90 {background: #DEDDE2;}
+.logo91 {background: #F5F4F0;}
+.logo92 {background: #F46D90;}
+.logo93 {background: #DE426B;}
+.logo94 {background: #EEF0F1;}
+.logo95 {background: #E2E0DF;}
+.logo96 {background: #D8C9AE;}
+.logo97 {background: #D2D689;}
+.logo98 {background: #A19E50;}
+.logo99 {background: #89D7BC;}
+.logo100 {background: #99C3D9;}
+.logo101 {background: #3D708F;}
+.logo102 {background: #FCCEBE;}
+.logo103 {background: #FCF9F0;}
+.logo104 {background: #9FBCC2;}
+.logo105 {background: #AFC7BF;}
+.logo106 {background: #C7CFC0;}
+.logo107 {background: #DDD6CA;}
+.logo108 {background: #EEDFDA;}
+.logo109 {background: #293844;}
+.logo110 {background: #9791A0;}
+.logo111 {background: #D8AEAE;}
+.logo112 {background: #F8DAC3;}
+.logo113 {background: #FFF1DD;}
+.logo114 {background: #EEF1FE;}
+.logo115 {background: #BCC2D7;}
+.logo116 {background: #8895B1;}
+.logo117 {background: #546C8C;}
+.logo118 {background: #194568;}
+.logo119 {background: #A85658;}
+.logo120 {background: #F5F1E8;}
+.logo121 {background: #CFC5BB;}
+.logo122 {background: #AC9B91;}
+.logo123 {background: #89726C;}
+.logo124 {background: #E2A5AD;}
+.logo125 {background: #EDCDCE;}
+.logo126 {background: #F6F6F6;}
+.logo127 {background: #B5C7C9;}
+.logo128 {background: #C9C0B5;}
+.logo129 {background: #E1E6E6;}
+.logo130 {background: #C4DAE6;}
+.logo131 {background: #92C8E0;}
+.logo132 {background: #67ABD6;}
+.logo133 {background: #C3B0D6;}
+.logo134 {background: #A79FCA;}
+.logo135 {background: #E73B3E;}
+.logo136 {background: #F2BBA7;}
+.logo137 {background: #404945;}
+.logo138 {background: #65AF54;}
+.logo139 {background: #FED4D4;}
+.logo140 {background: #F58457;}
+.logo141 {background: #5FC3EF;}
+.logo142 {background: #8EC854;}
+.logo143 {background: #F4E907;}
+.logo144 {background: #FBCE25;}
+.logo145 {background: #33B0EE;}
+.logo146 {background: #43A08D;}
+.logo147 {background: #F7AFC3;}
+.logo148 {background: #EA523D;}
+.logo149 {background: #9254B9;}
+.logo150 {background: #F8674E;}
+.logo151 {background: #FFAD1C;}
+.logo152 {background: #3C9E70;}
+.logo153 {background: #2F84E1;}
+.logo154 {background: #AD2C88;}
+.logo155 {background: #6AB4CA;}
+.logo156 {background: #ACD4DC;}
+.logo157 {background: #ECEEEB;}
+.logo158 {background: #EE7946;}
+.logo159 {background: #E65076;}
+.logo160 {background: #D98289;}
+.logo161 {background: #CCADA3;}
+.logo162 {background: #C3E5D7;}
+.logo163 {background: #F2E6CE;}
+.logo164 {background: #D9CEAE;}
+.logo165 {background: #99917A;}
+.logo166 {background: #806D53;}
+.logo167 {background: #DAE6E0;}
+.logo168 {background: #98AEB3;}
+.logo169 {background: #B8E68A;}
+.logo170 {background: #ACE6A1;}
+.logo171 {background: #69BF8D;}
+.logo172 {background: #3D998A;}
+.logo173 {background: #094C59;}
+.logo174 {background: #4D0B42;}
+.logo175 {background: #BF134D;}
+.logo176 {background: #E68601;}
+.logo177 {background: #F2CA00;}
+.logo178 {background: #8E9910;}
+.logo179 {background: #F2D16D;}
+.logo180 {background: #D95A41;}
+.logo181 {background: #C02641;}
+.logo182 {background: #4D1F31;}
+.logo183 {background: #597C80;}
+.logo184 {background: #2424B3;}
+.logo185 {background: #2E2EE6;}
+.logo186 {background: #F25555;}
+.logo187 {background: #FF9E59;}
+.logo188 {background: #FFF2E6;}
+.logo189 {background: #D8E3A3;}
+.logo190 {background: #F2EAAF;}
+.logo191 {background: #FFBA8C;}
+.logo192 {background: #FF9882;}
+.logo193 {background: #F66891;}
+.logo194 {background: #F0F8FF;}
+.logo195 {background: #FAEBD7;}
+.logo196 {background: #00FFFF;}
+.logo197 {background: #7FFFD4;}
+.logo198 {background: #F0FFFF;}
+.logo199 {background: #F5F5DC;}
+.logo200 {background: #FFE4C4;}
+.logo201 {background: #FFEBCD;}
+.logo202 {background: #0000FF;}
+.logo203 {background: #8A2BE2;}
+.logo204 {background: #A52A2A;}
+.logo205 {background: #DEB887;}
+.logo206 {background: #5F9EA0;}
+.logo207 {background: #7FFF00;}
+.logo208 {background: #D2691E;}
+.logo209 {background: #FF7F50;}
+.logo210 {background: #6495ED;}
+.logo211 {background: #FFF8DC;}
+.logo212 {background: #DC143C;}
+.logo213 {background: #00008B;}
+.logo214 {background: #008B8B;}
+.logo215 {background: #B8860B;}
+.logo216 {background: #A9A9A9;}
+.logo217 {background: #006400;}
+.logo218 {background: #BDB76B;}
+.logo219 {background: #8B008B;}
+.logo220 {background: #556B2F;}
+.logo221 {background: #FF8C00;}
+.logo222 {background: #9932CC;}
+.logo223 {background: #8B0000;}
+.logo224 {background: #E9967A;}
+.logo225 {background: #8FBC8F;}
+.logo226 {background: #483D8B;}
+.logo227 {background: #2F4F4F;}
+.logo228 {background: #00CED1;}
+.logo229 {background: #9400D3;}
+.logo230 {background: #FF1493;}
+.logo231 {background: #00BFFF;}
+.logo232 {background: #696969;}
+.logo233 {background: #1E90FF;}
+.logo234 {background: #D19275;}
+.logo235 {background: #B22222;}
+.logo236 {background: #FFFAF0;}
+.logo237 {background: #228B22;}
+.logo238 {background: #FF00FF;}
+.logo239 {background: #DCDCDC;}
+.logo240 {background: #F8F8FF;}
+.logo241 {background: #FFD700;}
+.logo242 {background: #DAA520;}
+.logo243 {background: #808080;}
+.logo244 {background: #008000;}
+.logo245 {background: #ADFF2F;}
+.logo246 {background: #F0FFF0;}
+.logo247 {background: #FF69B4;}
+.logo248 {background: #CD5C5C;}
+.logo249 {background: #4B0082;}
+.logo250 {background: #FFFFF0;}
+.logo251 {background: #F0E68C;}
+.logo252 {background: #E6E6FA;}
+.logo253 {background: #FFF0F5;}
+.logo254 {background: #7CFC00;}
+.logo255 {background: #FFFACD;}
+.logo256 {background: #ADD8E6;}
+.logo257 {background: #F08080;}
+.logo258 {background: #E0FFFF;}
+.logo259 {background: #FAFAD2;}
+.logo260 {background: #D3D3D3;}
+.logo261 {background: #90EE90;}
+.logo262 {background: #FFB6C1;}
+.logo263 {background: #FFA07A;}
+.logo264 {background: #20B2AA;}
+.logo265 {background: #87CEFA;}
+.logo266 {background: #8470FF;}
+.logo267 {background: #778899;}
+.logo268 {background: #B0C4DE;}
+.logo269 {background: #FFFFE0;}
+.logo270 {background: #00FF00;}
+.logo271 {background: #32CD32;}
+.logo272 {background: #FAF0E6;}
+.logo273 {background: #800000;}
+.logo274 {background: #66CDAA;}
+.logo275 {background: #0000CD;}
+.logo276 {background: #BA55D3;}
+.logo277 {background: #9370D8;}
+.logo278 {background: #3CB371;}
+.logo279 {background: #7B68EE;}
+.logo280 {background: #00FA9A;}
+.logo281 {background: #48D1CC;}
+.logo282 {background: #C71585;}
+.logo283 {background: #191970;}
+.logo284 {background: #F5FFFA;}
+.logo285 {background: #FFE4E1;}
+.logo286 {background: #FFE4B5;}
+.logo287 {background: #FFDEAD;}
+.logo288 {background: #000080;}
+.logo289 {background: #FDF5E6;}
+.logo290 {background: #808000;}
+.logo291 {background: #6B8E23;}
+.logo292 {background: #FFA500;}
+.logo293 {background: #FF4500;}
+.logo294 {background: #DA70D6;}
+.logo295 {background: #EEE8AA;}
+.logo296 {background: #98FB98;}
+.logo297 {background: #AFEEEE;}
+.logo298 {background: #D87093;}
+.logo299 {background: #FFEFD5;}
+.logo300 {background: #FFDAB9;}
+.logo301 {background: #CD853F;}
+.logo302 {background: #FFC0CB;}
+.logo303 {background: #DDA0DD;}
+.logo304 {background: #B0E0E6;}
+.logo305 {background: #800080;}
+.logo306 {background: #FF0000;}
+.logo307 {background: #BC8F8F;}
+.logo308 {background: #4169E1;}
+.logo309 {background: #8B4513;}
+.logo310 {background: #FA8072;}
+.logo311 {background: #F4A460;}
+.logo312 {background: #2E8B57;}
+.logo313 {background: #FFF5EE;}
+.logo314 {background: #A0522D;}
+.logo315 {background: #C0C0C0;}
+.logo316 {background: #87CEEB;}
+.logo317 {background: #6A5ACD;}
+.logo318 {background: #708090;}
+.logo319 {background: #FFFAFA;}
+.logo320 {background: #00FF7F;}
+.logo321 {background: #4682B4;}
+.logo322 {background: #D2B48C;}
+.logo323 {background: #008080;}
+.logo324 {background: #D8BFD8;}
+.logo325 {background: #FF6347;}
+.logo326 {background: #40E0D0;}
+.logo327 {background: #EE82EE;}
+.logo328 {background: #D02090;}
+.logo329 {background: #F5DEB3;}
+.logo330 {background: #F5F5F5;}
+.logo331 {background: #FFFF00;}
+.logo332 {background: #9ACD32;}
+.color1 {background: linear-gradient(135deg, #EEBD89, #D13ABD);}
+.cirle1-1 {background: #EEBD89;}
+.cirle1-2 {background: #D13ABD;}
+.color2 {background: linear-gradient(135deg, #9600FF, #AEBAF8);}
+.cirle2-1 {background: #9600FF;}
+.cirle2-2 {background: #AEBAF8;}
+.color3 {background: linear-gradient(135deg, #F6EA41, #F048C6);}
+.cirle3-1 {background: #F6EA41;}
+.cirle3-2 {background: #F048C6;}
+.color4 {background: linear-gradient(135deg, #BB73E0, #FF8DDB);}
+.cirle4-1 {background: #BB73E0;}
+.cirle4-2 {background: #FF8DDB;}
+.color5 {background: linear-gradient(135deg, #0CCDA3, #C1FCD3);}
+.cirle5-1 {background: #0CCDA3;}
+.cirle5-2 {background: #C1FCD3;}
+.color6 {background: linear-gradient(135deg, #C973FF, #AEBAF8);}
+.cirle6-1 {background: #C973FF;}
+.cirle6-2 {background: #AEBAF8;}
+.color7 {background: linear-gradient(135deg, #F9957F, #F2F5D0);}
+.cirle7-1 {background: #F9957F;}
+.cirle7-2 {background: #F2F5D0;}
+.color8 {background: linear-gradient(135deg, #B60F46, #D592FF);}
+.cirle8-1 {background: #B60F46;}
+.cirle8-2 {background: #D592FF;}
+.color9 {background: linear-gradient(135deg, #A3C9E2, #9618F7);}
+.cirle9-1 {background: #A3C9E2;}
+.cirle9-2 {background: #9618F7;}
+.color10 {background: linear-gradient(135deg, #FF0078, #F6EFA7);}
+.cirle10-1 {background: #FF0078;}
+.cirle10-2 {background: #F6EFA7;}
+.color11 {background: linear-gradient(135deg, #849B5C, #BFFFC7);}
+.cirle11-1 {background: #849B5C;}
+.cirle11-2 {background: #BFFFC7;}
+.color12 {background: linear-gradient(135deg, #E5AAC3, #9A52C7);}
+.cirle12-1 {background: #E5AAC3;}
+.cirle12-2 {background: #9A52C7;}
+.color13 {background: linear-gradient(135deg, #E65758, #771D32);}
+.cirle13-1 {background: #E65758;}
+.cirle13-2 {background: #771D32;}
+.color14 {background: linear-gradient(135deg, #EF33B1, #F6E6BC);}
+.cirle14-1 {background: #EF33B1;}
+.cirle14-2 {background: #F6E6BC;}
+.color15 {background: linear-gradient(135deg, #C22ED0, #5FFAE0);}
+.cirle15-1 {background: #C22ED0;}
+.cirle15-2 {background: #5FFAE0;}
+.color16 {background: linear-gradient(135deg, #9FA5D5, #E8F5C8);}
+.cirle16-1 {background: #9FA5D5;}
+.cirle16-2 {background: #E8F5C8;}
+.color17 {background: linear-gradient(135deg, #0C7BB3, #F2BAE8);}
+.cirle17-1 {background: #0C7BB3;}
+.cirle17-2 {background: #F2BAE8;}
+.color18 {background: linear-gradient(135deg, #58126A, #F6B2E1);}
+.cirle18-1 {background: #58126A;}
+.cirle18-2 {background: #F6B2E1;}
+.color19 {background: linear-gradient(135deg, #E3FF73, #E27C39);}
+.cirle19-1 {background: #E3FF73;}
+.cirle19-2 {background: #E27C39;}
+.color20 {background: linear-gradient(135deg, #07A3B2, #D9ECC7);}
+.cirle20-1 {background: #07A3B2;}
+.cirle20-2 {background: #D9ECC7;}
+.color21 {background: linear-gradient(135deg, #DAFEA4, #F254A8);}
+.cirle21-1 {background: #DAFEA4;}
+.cirle21-2 {background: #F254A8;}
+.color22 {background: linear-gradient(135deg, #CCFBFF, #EF96C5);}
+.cirle22-1 {background: #CCFBFF;}
+.cirle22-2 {background: #EF96C5;}
+.color23 {background: linear-gradient(135deg, #50D5B7, #067D68);}
+.cirle23-1 {background: #50D5B7;}
+.cirle23-2 {background: #067D68;}
+.color24 {background: linear-gradient(135deg, #A96F44, #F2ECB6);}
+.cirle24-1 {background: #A96F44;}
+.cirle24-2 {background: #F2ECB6;}
+.color25 {background: linear-gradient(135deg, #AF6480, #C3CEE5);}
+.cirle25-1 {background: #AF6480;}
+.cirle25-2 {background: #C3CEE5;}
+.color26 {background: linear-gradient(135deg, #ED765E, #E3BDE5);}
+.cirle26-1 {background: #ED765E;}
+.cirle26-2 {background: #E3BDE5;}
+.color27 {background: linear-gradient(135deg, #EAD6EE, #10F1EA);}
+.cirle27-1 {background: #EAD6EE;}
+.cirle27-2 {background: #10F1EA;}
+.color28 {background: linear-gradient(135deg, #7DC387, #DBE9EA);}
+.cirle28-1 {background: #7DC387;}
+.cirle28-2 {background: #DBE9EA;}
+.color29 {background: linear-gradient(135deg, #F6A09A, #8A1F1D);}
+.cirle29-1 {background: #F6A09A;}
+.cirle29-2 {background: #8A1F1D;}
+.color30 {background: linear-gradient(135deg, #AE8BA1, #F2ECB6);}
+.cirle30-1 {background: #AE8BA1;}
+.cirle30-2 {background: #F2ECB6;}
+.color31 {background: linear-gradient(135deg, #AE6480, #F6B2E1);}
+.cirle31-1 {background: #AE6480;}
+.cirle31-2 {background: #F6B2E1;}
+.color32 {background: linear-gradient(135deg, #4B086D, #ACC0FE);}
+.cirle32-1 {background: #4B086D;}
+.cirle32-2 {background: #ACC0FE;}
+.color33 {background: linear-gradient(135deg, #7E2423, #E3BDE5);}
+.cirle33-1 {background: #7E2423;}
+.cirle33-2 {background: #E3BDE5;}
+.color34 {background: linear-gradient(135deg, #EAE5C9, #6CC6CB);}
+.cirle34-1 {background: #EAE5C9;}
+.cirle34-2 {background: #6CC6CB;}
+.color35 {background: linear-gradient(135deg, #A96F44, #F6B2E1);}
+.cirle35-1 {background: #A96F44;}
+.cirle35-2 {background: #F6B2E1;}
+.color36 {background: linear-gradient(135deg, #ED765E, #FEA858);}
+.cirle36-1 {background: #ED765E;}
+.cirle36-2 {background: #FEA858;}
+.color37 {background: linear-gradient(135deg, #B51F1A, #F98EF6);}
+.cirle37-1 {background: #B51F1A;}
+.cirle37-2 {background: #F98EF6;}
+.color38 {background: linear-gradient(135deg, #C5F9CA, #FFCC83);}
+.cirle38-1 {background: #C5F9CA;}
+.cirle38-2 {background: #FFCC83;}
+.color39 {background: linear-gradient(135deg, #00F1FF, #A7FFD8);}
+.cirle39-1 {background: #00F1FF;}
+.cirle39-2 {background: #A7FFD8;}
+.color40 {background: linear-gradient(135deg, #E5FFB4, #99E2FA);}
+.cirle40-1 {background: #E5FFB4;}
+.cirle40-2 {background: #99E2FA;}
+.color41 {background: linear-gradient(135deg, #FFEDD0, #A1E6FF);}
+.cirle41-1 {background: #FFEDD0;}
+.cirle41-2 {background: #A1E6FF;}
+.color42 {background: linear-gradient(135deg, #9DBEFF, #FED9FF);}
+.cirle42-1 {background: #9DBEFF;}
+.cirle42-2 {background: #FED9FF;}
+.color43 {background: linear-gradient(135deg, #FFC3F0, #FDF784);}
+.cirle43-1 {background: #FFC3F0;}
+.cirle43-2 {background: #FDF784;}
+.color44 {background: linear-gradient(135deg, #FDF0F0, #FEBBBB);}
+.cirle44-1 {background: #FDF0F0;}
+.cirle44-2 {background: #FEBBBB;}
+.color45 {background: linear-gradient(135deg, #FF0FE3, #FFF672);}
+.cirle45-1 {background: #FF0FE3;}
+.cirle45-2 {background: #FFF672;}
+.color46 {background: linear-gradient(135deg, #FFCBB5, #E0B9FF);}
+.cirle46-1 {background: #FFCBB5;}
+.cirle46-2 {background: #E0B9FF;}
+.color47 {background: linear-gradient(135deg, #FF9A9E, #FAD0C4);}
+.cirle47-1 {background: #FF9A9E;}
+.cirle47-2 {background: #FAD0C4;}
+.color48 {background: linear-gradient(135deg, #84FAB0, #8FD3F4);}
+.cirle48-1 {background: #84FAB0;}
+.cirle48-2 {background: #8FD3F4;}

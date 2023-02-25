@@ -1,0 +1,2435 @@
+<!--
+						   _oo0oo_
+						  o8888888o
+						  88" . "88
+						  (| -_- |)
+						  0\  =  /0
+						___/`---'\___
+					  .' \\|     |// '.
+					 / \\|||  :  |||// \
+					/ _||||| -:- |||||- \
+				   |   | \\\  -  /// |   |
+				   | \_|  ''\---/''  |_/ |
+				   \  .-\__  '-'  ___/-. /
+				 ___'. .'  /--.--\  `. .'___
+			  ."" '<  `.___\_<|>_/___.' >' "".
+			 | | :  `- \`.;`\ _ /`;.`/ - ` : | |
+			 \  \ `_.   \_ __\ /__ _/   .-` /  /
+		  =====`-.____`.___ \_____/___.-`___.-'=====
+
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                  佛祖保佑             永无BUG
+          佛曰:
+                  写字楼里写字间，写字间里程序员；
+                  程序人员写程序，又拿程序换酒钱。
+                  酒醒只在网上坐，酒醉还来网下眠；
+                  酒醉酒醒日复日，网上网下年复年。
+                  但愿老死电脑间，不愿鞠躬老板前；
+                  奔驰宝马贵者趣，公交自行程序员。
+                  别人笑我忒疯癫，我笑自己命太贱；
+                  不见满街漂亮妹，哪个归得程序员？
+-->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <title>HTML色彩方案</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="./static/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="./static/css/style.css"/>
+</head>
+<body>
+<div id="solid-color"></div>
+<div class="container-fluid">
+    <div class="page-header" style="text-align: center;">
+        <h1 class="cfont">HTML色彩方案</h1>
+        <!--<div id="Date" class="cfont"></div>
+        <script type="text/javascript">
+            setInterval(function(){
+                var date = new Date();
+                var year = date.getFullYear();    //获取当前年份
+                var month = date.getMonth() + 1;    //获取当前月份
+				var month = month < 10 ? '0' + month : month;
+                var day = date.getDate();         //获取当前日
+				var day = day < 10 ? '0' + day : day;
+                var h = date.getHours() < 10 ? '0' + date.getHours() : date.getHours();          //获取小时
+                var m = date.getMinutes() < 10 ? '0' + date.getMinutes() : date.getMinutes();        //获取分钟
+                var s = date.getSeconds() < 10 ? '0' + date.getSeconds() : date.getSeconds();        //获取秒
+                var d = document.getElementById('Date');
+                d.innerHTML='当前时间：'+year+'-'+month+'-'+day+' '+h+':'+m+':'+s;
+            }, 1000)
+        </script>-->
+        <a href="#solid-color" class="cfont"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;纯色&nbsp;</span></a>
+        <a href="#gradation" class="cfont"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;渐变色&nbsp;</span></a>
+        <a href="https://www.colorffy.com/" class="cfont" target="_blank" title="UI配色及效果预览网站"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;Colorffy&nbsp;</span></a>
+        <a href="https://webgradients.com/" class="cfont" target="_blank" title="WebGradients"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;WebGradients&nbsp;</span></a>
+        <a href="https://webkul.github.io/coolhue/" class="cfont" target="_blank" title="CoolHue"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;CoolHue&nbsp;</span></a>
+        <a href="https://uigradients.com/" class="cfont" target="_blank" title="uigradients"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;Uigradients&nbsp;</span></a>
+        <a href="https://gradient.shapefactory.co/" class="cfont" target="_blank" title="Gradients of Shapefactory"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;Gradients of Shapefactory&nbsp;</span></a>
+		<a href="http://color.oulu.me/" class="cfont" target="_blank" title="免费的渐变背景CSS3样式 | oulu.me"><i class="fa fa-hand-o-right" aria-hidden="true"></i><span>&nbsp;Color.oulu.me&nbsp;</span></a>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo1 circular">&nbsp; &nbsp; &nbsp; &nbsp; #AAC9CE</div>
+            <div class="panel-body fillet allheight fillet logo1"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo2 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B6B4C2</div>
+            <div class="panel-body fillet allheight logo2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo3 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C9BBCB</div>
+            <div class="panel-body fillet allheight logo3"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo4 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E5C1CD</div>
+            <div class="panel-body fillet allheight logo4"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo5 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F3DBCF</div>
+            <div class="panel-body fillet allheight logo5"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo6 circular">&nbsp; &nbsp; &nbsp; &nbsp; #80BEAF</div>
+            <div class="panel-body fillet allheight logo6"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo7 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B3DDD1</div>
+            <div class="panel-body fillet allheight logo7"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo8 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D1DCE2</div>
+            <div class="panel-body fillet allheight logo8"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo9 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5B994</div>
+            <div class="panel-body fillet allheight logo9"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo10 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EE9C6C</div>
+            <div class="panel-body fillet allheight logo10"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo11 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CCABD8</div>
+            <div class="panel-body fillet allheight logo11"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo12 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8474A1</div>
+            <div class="panel-body fillet allheight logo12"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo13 circular">&nbsp; &nbsp; &nbsp; &nbsp; #6EC6CA</div>
+            <div class="panel-body fillet allheight logo13"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo14 circular">&nbsp; &nbsp; &nbsp; &nbsp; #08979D</div>
+            <div class="panel-body fillet allheight logo14"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo15 circular">&nbsp; &nbsp; &nbsp; &nbsp; #055B5C</div>
+            <div class="panel-body fillet allheight logo15"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo16 circular">&nbsp; &nbsp; &nbsp; &nbsp; #54CDCC</div>
+            <div class="panel-body fillet allheight logo16"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo17 circular">&nbsp; &nbsp; &nbsp; &nbsp; #1F4F59</div>
+            <div class="panel-body fillet allheight logo17"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo18 circular">&nbsp; &nbsp; &nbsp; &nbsp; #7EA00E</div>
+            <div class="panel-body fillet allheight logo18"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo19 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DCD964</div>
+            <div class="panel-body fillet allheight logo19"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo20 circular">&nbsp; &nbsp; &nbsp; &nbsp; #213502</div>
+            <div class="panel-body fillet allheight logo20"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo21 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5CEC7</div>
+            <div class="panel-body fillet allheight logo21"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo22 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E79796</div>
+            <div class="panel-body fillet allheight logo22"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo23 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFC98B</div>
+            <div class="panel-body fillet allheight logo23"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo24 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFB284</div>
+            <div class="panel-body fillet allheight logo24"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo25 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C6C09C</div>
+            <div class="panel-body fillet allheight logo25"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo26 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D9ECF2</div>
+            <div class="panel-body fillet allheight logo26"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo27 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F56A79</div>
+            <div class="panel-body fillet allheight logo27"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo28 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF414D</div>
+            <div class="panel-body fillet allheight logo28"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo29 circular">&nbsp; &nbsp; &nbsp; &nbsp; #1AA6B7</div>
+            <div class="panel-body fillet allheight logo29"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo30 circular">&nbsp; &nbsp; &nbsp; &nbsp; #002D40</div>
+            <div class="panel-body fillet allheight logo30"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo31 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D2A9B0</div>
+            <div class="panel-body fillet allheight logo31"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo32 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E1C0D8</div>
+            <div class="panel-body fillet allheight logo32"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo33 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F1CFE5</div>
+            <div class="panel-body fillet allheight logo33"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo34 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A9A5A2</div>
+            <div class="panel-body fillet allheight logo34"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo35 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C8C6C9</div>
+            <div class="panel-body fillet allheight logo35"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo36 circular">&nbsp; &nbsp; &nbsp; &nbsp; #86E3CE</div>
+            <div class="panel-body fillet allheight logo36"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo37 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DDE6A5</div>
+            <div class="panel-body fillet allheight logo37"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo38 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFDD94</div>
+            <div class="panel-body fillet allheight logo38"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo39 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FA897B</div>
+            <div class="panel-body fillet allheight logo39"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo40 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CCABD8</div>
+            <div class="panel-body fillet allheight logo40"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo41 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E7E7E7</div>
+            <div class="panel-body fillet allheight logo41"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo42 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D1D1D1</div>
+            <div class="panel-body fillet allheight logo42"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo43 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B6B6B6</div>
+            <div class="panel-body fillet allheight logo43"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo44 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9B9B9B</div>
+            <div class="panel-body fillet allheight logo44"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo45 circular">&nbsp; &nbsp; &nbsp; &nbsp; #586C7C</div>
+            <div class="panel-body fillet allheight logo45"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo46 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C4DEE7</div>
+            <div class="panel-body fillet allheight logo46"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo47 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DCEAF1</div>
+            <div class="panel-body fillet allheight logo47"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo48 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E4F0F2</div>
+            <div class="panel-body fillet allheight logo48"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo49 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D6DADF</div>
+            <div class="panel-body fillet allheight logo49"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo50 circular">&nbsp; &nbsp; &nbsp; &nbsp; #384729</div>
+            <div class="panel-body fillet allheight logo50"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo51 circular">&nbsp; &nbsp; &nbsp; &nbsp; #748369</div>
+            <div class="panel-body fillet allheight logo51"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo52 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B5CBAA</div>
+            <div class="panel-body fillet allheight logo52"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo53 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D3E2C8</div>
+            <div class="panel-body fillet allheight logo53"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo54 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E3E7DE</div>
+            <div class="panel-body fillet allheight logo54"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo55 circular">&nbsp; &nbsp; &nbsp; &nbsp; #6F5E5E</div>
+            <div class="panel-body fillet allheight logo55"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo56 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C4BAB5</div>
+            <div class="panel-body fillet allheight logo56"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo57 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B4BEC8</div>
+            <div class="panel-body fillet allheight logo57"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo58 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CBE1E6</div>
+            <div class="panel-body fillet allheight logo58"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo59 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C1C1C1</div>
+            <div class="panel-body fillet allheight logo59"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo60 circular">&nbsp; &nbsp; &nbsp; &nbsp; #90ADB3</div>
+            <div class="panel-body fillet allheight logo60"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo61 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A3C6CC</div>
+            <div class="panel-body fillet allheight logo61"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo62 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BDCFCF</div>
+            <div class="panel-body fillet allheight logo62"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo63 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BBB8A5</div>
+            <div class="panel-body fillet allheight logo63"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo64 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CED8C5</div>
+            <div class="panel-body fillet allheight logo64"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo65 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D4D5D3</div>
+            <div class="panel-body fillet allheight logo65"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo66 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8FADB3</div>
+            <div class="panel-body fillet allheight logo66"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo67 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F7C8CE</div>
+            <div class="panel-body fillet allheight logo67"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo68 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFBC7</div>
+            <div class="panel-body fillet allheight logo68"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo69 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EDF2C5</div>
+            <div class="panel-body fillet allheight logo69"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo70 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D2CCE6</div>
+            <div class="panel-body fillet allheight logo70"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo71 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E5C2DB</div>
+            <div class="panel-body fillet allheight logo71"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo72 circular">&nbsp; &nbsp; &nbsp; &nbsp; #87CAAC</div>
+            <div class="panel-body fillet allheight logo72"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo73 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F19DB5</div>
+            <div class="panel-body fillet allheight logo73"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo74 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DC6A9A</div>
+            <div class="panel-body fillet allheight logo74"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo75 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D95097</div>
+            <div class="panel-body fillet allheight logo75"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo76 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C1DB81</div>
+            <div class="panel-body fillet allheight logo76"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo77 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F8C6BD</div>
+            <div class="panel-body fillet allheight logo77"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo78 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D5EAD8</div>
+            <div class="panel-body fillet allheight logo78"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo79 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EFEFEF</div>
+            <div class="panel-body fillet allheight logo79"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo80 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FBD8B5</div>
+            <div class="panel-body fillet allheight logo80"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo81 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BCE2E8</div>
+            <div class="panel-body fillet allheight logo81"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo82 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D7B4B1</div>
+            <div class="panel-body fillet allheight logo82"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo83 circular">&nbsp; &nbsp; &nbsp; &nbsp; #98BED0</div>
+            <div class="panel-body fillet allheight logo83"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo84 circular">&nbsp; &nbsp; &nbsp; &nbsp; #5F67AE</div>
+            <div class="panel-body fillet allheight logo84"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo85 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D1BADA</div>
+            <div class="panel-body fillet allheight logo85"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo86 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00A5A8</div>
+            <div class="panel-body fillet allheight logo86"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo87 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C5C0D7</div>
+            <div class="panel-body fillet allheight logo87"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo88 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F0EBBA</div>
+            <div class="panel-body fillet allheight logo88"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo89 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8C8BAA</div>
+            <div class="panel-body fillet allheight logo89"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo90 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DEDDE2</div>
+            <div class="panel-body fillet allheight logo90"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo91 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5F4F0</div>
+            <div class="panel-body fillet allheight logo91"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo92 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F46D90</div>
+            <div class="panel-body fillet allheight logo92"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo93 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DE426B</div>
+            <div class="panel-body fillet allheight logo93"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo94 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EEF0F1</div>
+            <div class="panel-body fillet allheight logo94"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo95 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E2E0DF</div>
+            <div class="panel-body fillet allheight logo95"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo96 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D8C9AE</div>
+            <div class="panel-body fillet allheight logo96"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo97 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D2D689</div>
+            <div class="panel-body fillet allheight logo97"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo98 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A19E50</div>
+            <div class="panel-body fillet allheight logo98"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo99 circular">&nbsp; &nbsp; &nbsp; &nbsp; #89D7BC</div>
+            <div class="panel-body fillet allheight logo99"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo100 circular">&nbsp; &nbsp; &nbsp; &nbsp; #99C3D9</div>
+            <div class="panel-body fillet allheight logo100"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo101 circular">&nbsp; &nbsp; &nbsp; &nbsp; #3D708F</div>
+            <div class="panel-body fillet allheight logo101"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo102 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FCCEBE</div>
+            <div class="panel-body fillet allheight logo102"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo103 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FCF9F0</div>
+            <div class="panel-body fillet allheight logo103"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo104 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9FBCC2</div>
+            <div class="panel-body fillet allheight logo104"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo105 circular">&nbsp; &nbsp; &nbsp; &nbsp; #AFC7BF</div>
+            <div class="panel-body fillet allheight logo105"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo106 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C7CFC0</div>
+            <div class="panel-body fillet allheight logo106"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo107 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DDD6CA</div>
+            <div class="panel-body fillet allheight logo107"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo108 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EEDFDA</div>
+            <div class="panel-body fillet allheight logo108"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo109 circular">&nbsp; &nbsp; &nbsp; &nbsp; #293844</div>
+            <div class="panel-body fillet allheight logo109"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo110 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9791A0</div>
+            <div class="panel-body fillet allheight logo110"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo111 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D8AEAE</div>
+            <div class="panel-body fillet allheight logo111"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo112 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F8DAC3</div>
+            <div class="panel-body fillet allheight logo112"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo113 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFF1DD</div>
+            <div class="panel-body fillet allheight logo113"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo114 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EEF1FE</div>
+            <div class="panel-body fillet allheight logo114"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo115 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BCC2D7</div>
+            <div class="panel-body fillet allheight logo115"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo116 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8895B1</div>
+            <div class="panel-body fillet allheight logo116"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo117 circular">&nbsp; &nbsp; &nbsp; &nbsp; #546C8C</div>
+            <div class="panel-body fillet allheight logo117"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo118 circular">&nbsp; &nbsp; &nbsp; &nbsp; #194568</div>
+            <div class="panel-body fillet allheight logo118"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo119 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A85658</div>
+            <div class="panel-body fillet allheight logo119"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo120 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5F1E8</div>
+            <div class="panel-body fillet allheight logo120"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo121 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CFC5BB</div>
+            <div class="panel-body fillet allheight logo121"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo122 circular">&nbsp; &nbsp; &nbsp; &nbsp; #AC9B91</div>
+            <div class="panel-body fillet allheight logo122"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo123 circular">&nbsp; &nbsp; &nbsp; &nbsp; #89726C</div>
+            <div class="panel-body fillet allheight logo123"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo124 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E2A5AD</div>
+            <div class="panel-body fillet allheight logo124"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo125 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EDCDCE</div>
+            <div class="panel-body fillet allheight logo125"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo126 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F6F6F6</div>
+            <div class="panel-body fillet allheight logo126"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo127 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B5C7C9</div>
+            <div class="panel-body fillet allheight logo127"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo128 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C9C0B5</div>
+            <div class="panel-body fillet allheight logo128"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo129 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E1E6E6</div>
+            <div class="panel-body fillet allheight logo129"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo130 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C4DAE6</div>
+            <div class="panel-body fillet allheight logo130"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo131 circular">&nbsp; &nbsp; &nbsp; &nbsp; #92C8E0</div>
+            <div class="panel-body fillet allheight logo131"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo132 circular">&nbsp; &nbsp; &nbsp; &nbsp; #67ABD6</div>
+            <div class="panel-body fillet allheight logo132"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo133 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C3B0D6</div>
+            <div class="panel-body fillet allheight logo133"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo134 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A79FCA</div>
+            <div class="panel-body fillet allheight logo134"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo135 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E73B3E</div>
+            <div class="panel-body fillet allheight logo135"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo136 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F2BBA7</div>
+            <div class="panel-body fillet allheight logo136"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo137 circular">&nbsp; &nbsp; &nbsp; &nbsp; #404945</div>
+            <div class="panel-body fillet allheight logo137"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo138 circular">&nbsp; &nbsp; &nbsp; &nbsp; #65AF54</div>
+            <div class="panel-body fillet allheight logo138"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo139 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FED4D4</div>
+            <div class="panel-body fillet allheight logo139"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo140 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F58457</div>
+            <div class="panel-body fillet allheight logo140"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo141 circular">&nbsp; &nbsp; &nbsp; &nbsp; #5FC3EF</div>
+            <div class="panel-body fillet allheight logo141"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo142 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8EC854</div>
+            <div class="panel-body fillet allheight logo142"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo143 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F4E907</div>
+            <div class="panel-body fillet allheight logo143"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo144 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FBCE25</div>
+            <div class="panel-body fillet allheight logo144"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo145 circular">&nbsp; &nbsp; &nbsp; &nbsp; #33B0EE</div>
+            <div class="panel-body fillet allheight logo145"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo146 circular">&nbsp; &nbsp; &nbsp; &nbsp; #43A08D</div>
+            <div class="panel-body fillet allheight logo146"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo147 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F7AFC3</div>
+            <div class="panel-body fillet allheight logo147"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo148 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EA523D</div>
+            <div class="panel-body fillet allheight logo148"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo149 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9254B9</div>
+            <div class="panel-body fillet allheight logo149"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo150 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F8674E</div>
+            <div class="panel-body fillet allheight logo150"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo151 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFAD1C</div>
+            <div class="panel-body fillet allheight logo151"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo152 circular">&nbsp; &nbsp; &nbsp; &nbsp; #3C9E70</div>
+            <div class="panel-body fillet allheight logo152"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo153 circular">&nbsp; &nbsp; &nbsp; &nbsp; #2F84E1</div>
+            <div class="panel-body fillet allheight logo153"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo154 circular">&nbsp; &nbsp; &nbsp; &nbsp; #AD2C88</div>
+            <div class="panel-body fillet allheight logo154"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo155 circular">&nbsp; &nbsp; &nbsp; &nbsp; #6AB4CA</div>
+            <div class="panel-body fillet allheight logo155"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo156 circular">&nbsp; &nbsp; &nbsp; &nbsp; #ACD4DC</div>
+            <div class="panel-body fillet allheight logo156"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo157 circular">&nbsp; &nbsp; &nbsp; &nbsp; #ECEEEB</div>
+            <div class="panel-body fillet allheight logo157"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo158 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EE7946</div>
+            <div class="panel-body fillet allheight logo158"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo159 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E65076</div>
+            <div class="panel-body fillet allheight logo159"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo160 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D98289</div>
+            <div class="panel-body fillet allheight logo160"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo161 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CCADA3</div>
+            <div class="panel-body fillet allheight logo161"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo162 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C3E5D7</div>
+            <div class="panel-body fillet allheight logo162"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo163 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F2E6CE</div>
+            <div class="panel-body fillet allheight logo163"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo164 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D9CEAE</div>
+            <div class="panel-body fillet allheight logo164"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo165 circular">&nbsp; &nbsp; &nbsp; &nbsp; #99917A</div>
+            <div class="panel-body fillet allheight logo165"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo166 circular">&nbsp; &nbsp; &nbsp; &nbsp; #806D53</div>
+            <div class="panel-body fillet allheight logo166"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo167 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DAE6E0</div>
+            <div class="panel-body fillet allheight logo167"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo168 circular">&nbsp; &nbsp; &nbsp; &nbsp; #98AEB3</div>
+            <div class="panel-body fillet allheight logo168"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo169 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B8E68A</div>
+            <div class="panel-body fillet allheight logo169"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo170 circular">&nbsp; &nbsp; &nbsp; &nbsp; #ACE6A1</div>
+            <div class="panel-body fillet allheight logo170"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo171 circular">&nbsp; &nbsp; &nbsp; &nbsp; #69BF8D</div>
+            <div class="panel-body fillet allheight logo171"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo172 circular">&nbsp; &nbsp; &nbsp; &nbsp; #3D998A</div>
+            <div class="panel-body fillet allheight logo172"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo173 circular">&nbsp; &nbsp; &nbsp; &nbsp; #094C59</div>
+            <div class="panel-body fillet allheight logo173"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo174 circular">&nbsp; &nbsp; &nbsp; &nbsp; #4D0B42</div>
+            <div class="panel-body fillet allheight logo174"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo175 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BF134D</div>
+            <div class="panel-body fillet allheight logo175"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo176 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E68601</div>
+            <div class="panel-body fillet allheight logo176"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo177 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F2CA00</div>
+            <div class="panel-body fillet allheight logo177"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo178 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8E9910</div>
+            <div class="panel-body fillet allheight logo178"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo179 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F2D16D</div>
+            <div class="panel-body fillet allheight logo179"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo180 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D95A41</div>
+            <div class="panel-body fillet allheight logo180"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo181 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C02641</div>
+            <div class="panel-body fillet allheight logo181"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo182 circular">&nbsp; &nbsp; &nbsp; &nbsp; #4D1F31</div>
+            <div class="panel-body fillet allheight logo182"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo183 circular">&nbsp; &nbsp; &nbsp; &nbsp; #597C80</div>
+            <div class="panel-body fillet allheight logo183"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo184 circular">&nbsp; &nbsp; &nbsp; &nbsp; #2424B3</div>
+            <div class="panel-body fillet allheight logo184"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo185 circular">&nbsp; &nbsp; &nbsp; &nbsp; #2E2EE6</div>
+            <div class="panel-body fillet allheight logo185"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo186 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F25555</div>
+            <div class="panel-body fillet allheight logo186"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo187 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF9E59</div>
+            <div class="panel-body fillet allheight logo187"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo188 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFF2E6</div>
+            <div class="panel-body fillet allheight logo188"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo189 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D8E3A3</div>
+            <div class="panel-body fillet allheight logo189"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo190 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F2EAAF</div>
+            <div class="panel-body fillet allheight logo190"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo191 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFBA8C</div>
+            <div class="panel-body fillet allheight logo191"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo192 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF9882</div>
+            <div class="panel-body fillet allheight logo192"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo193 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F66891</div>
+            <div class="panel-body fillet allheight logo193"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo194 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F0F8FF</div>
+            <div class="panel-body fillet allheight logo194"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo195 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FAEBD7</div>
+            <div class="panel-body fillet allheight logo195"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo196 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00FFFF</div>
+            <div class="panel-body fillet allheight logo196"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo197 circular">&nbsp; &nbsp; &nbsp; &nbsp; #7FFFD4</div>
+            <div class="panel-body fillet allheight logo197"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo198 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F0FFFF</div>
+            <div class="panel-body fillet allheight logo198"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo199 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5F5DC</div>
+            <div class="panel-body fillet allheight logo199"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo200 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFE4C4</div>
+            <div class="panel-body fillet allheight logo200"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo201 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFEBCD</div>
+            <div class="panel-body fillet allheight logo201"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo202 circular">&nbsp; &nbsp; &nbsp; &nbsp; #0000FF</div>
+            <div class="panel-body fillet allheight logo202"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo203 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8A2BE2</div>
+            <div class="panel-body fillet allheight logo203"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo204 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A52A2A</div>
+            <div class="panel-body fillet allheight logo204"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo205 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DEB887</div>
+            <div class="panel-body fillet allheight logo205"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo206 circular">&nbsp; &nbsp; &nbsp; &nbsp; #5F9EA0</div>
+            <div class="panel-body fillet allheight logo206"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo207 circular">&nbsp; &nbsp; &nbsp; &nbsp; #7FFF00</div>
+            <div class="panel-body fillet allheight logo207"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo208 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D2691E</div>
+            <div class="panel-body fillet allheight logo208"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo209 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF7F50</div>
+            <div class="panel-body fillet allheight logo209"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo210 circular">&nbsp; &nbsp; &nbsp; &nbsp; #6495ED</div>
+            <div class="panel-body fillet allheight logo210"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo211 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFF8DC</div>
+            <div class="panel-body fillet allheight logo211"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo212 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DC143C</div>
+            <div class="panel-body fillet allheight logo212"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo213 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00008B</div>
+            <div class="panel-body fillet allheight logo213"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo214 circular">&nbsp; &nbsp; &nbsp; &nbsp; #008B8B</div>
+            <div class="panel-body fillet allheight logo214"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo215 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B8860B</div>
+            <div class="panel-body fillet allheight logo215"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo216 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A9A9A9</div>
+            <div class="panel-body fillet allheight logo216"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo217 circular">&nbsp; &nbsp; &nbsp; &nbsp; #006400</div>
+            <div class="panel-body fillet allheight logo217"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo218 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BDB76B</div>
+            <div class="panel-body fillet allheight logo218"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo219 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8B008B</div>
+            <div class="panel-body fillet allheight logo219"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo220 circular">&nbsp; &nbsp; &nbsp; &nbsp; #556B2F</div>
+            <div class="panel-body fillet allheight logo220"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo221 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF8C00</div>
+            <div class="panel-body fillet allheight logo221"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo222 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9932CC</div>
+            <div class="panel-body fillet allheight logo222"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo223 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8B0000</div>
+            <div class="panel-body fillet allheight logo223"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo224 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E9967A</div>
+            <div class="panel-body fillet allheight logo224"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo225 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8FBC8F</div>
+            <div class="panel-body fillet allheight logo225"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo226 circular">&nbsp; &nbsp; &nbsp; &nbsp; #483D8B</div>
+            <div class="panel-body fillet allheight logo226"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo227 circular">&nbsp; &nbsp; &nbsp; &nbsp; #2F4F4F</div>
+            <div class="panel-body fillet allheight logo227"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo228 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00CED1</div>
+            <div class="panel-body fillet allheight logo228"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo229 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9400D3</div>
+            <div class="panel-body fillet allheight logo229"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo230 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF1493</div>
+            <div class="panel-body fillet allheight logo230"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo231 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00BFFF</div>
+            <div class="panel-body fillet allheight logo231"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo232 circular">&nbsp; &nbsp; &nbsp; &nbsp; #696969</div>
+            <div class="panel-body fillet allheight logo232"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo233 circular">&nbsp; &nbsp; &nbsp; &nbsp; #1E90FF</div>
+            <div class="panel-body fillet allheight logo233"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo234 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D19275</div>
+            <div class="panel-body fillet allheight logo234"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo235 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B22222</div>
+            <div class="panel-body fillet allheight logo235"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo236 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFAF0</div>
+            <div class="panel-body fillet allheight logo236"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo237 circular">&nbsp; &nbsp; &nbsp; &nbsp; #228B22</div>
+            <div class="panel-body fillet allheight logo237"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo238 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF00FF</div>
+            <div class="panel-body fillet allheight logo238"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo239 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DCDCDC</div>
+            <div class="panel-body fillet allheight logo239"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo240 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F8F8FF</div>
+            <div class="panel-body fillet allheight logo240"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo241 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFD700</div>
+            <div class="panel-body fillet allheight logo241"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo242 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DAA520</div>
+            <div class="panel-body fillet allheight logo242"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo243 circular">&nbsp; &nbsp; &nbsp; &nbsp; #808080</div>
+            <div class="panel-body fillet allheight logo243"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo244 circular">&nbsp; &nbsp; &nbsp; &nbsp; #008000</div>
+            <div class="panel-body fillet allheight logo244"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo245 circular">&nbsp; &nbsp; &nbsp; &nbsp; #ADFF2F</div>
+            <div class="panel-body fillet allheight logo245"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo246 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F0FFF0</div>
+            <div class="panel-body fillet allheight logo246"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo247 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF69B4</div>
+            <div class="panel-body fillet allheight logo247"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo248 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CD5C5C</div>
+            <div class="panel-body fillet allheight logo248"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo249 circular">&nbsp; &nbsp; &nbsp; &nbsp; #4B0082</div>
+            <div class="panel-body fillet allheight logo249"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo250 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFFF0</div>
+            <div class="panel-body fillet allheight logo250"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo251 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F0E68C</div>
+            <div class="panel-body fillet allheight logo251"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo252 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E6E6FA</div>
+            <div class="panel-body fillet allheight logo252"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo253 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFF0F5</div>
+            <div class="panel-body fillet allheight logo253"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo254 circular">&nbsp; &nbsp; &nbsp; &nbsp; #7CFC00</div>
+            <div class="panel-body fillet allheight logo254"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo255 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFACD</div>
+            <div class="panel-body fillet allheight logo255"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo256 circular">&nbsp; &nbsp; &nbsp; &nbsp; #ADD8E6</div>
+            <div class="panel-body fillet allheight logo256"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo257 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F08080</div>
+            <div class="panel-body fillet allheight logo257"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo258 circular">&nbsp; &nbsp; &nbsp; &nbsp; #E0FFFF</div>
+            <div class="panel-body fillet allheight logo258"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo259 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FAFAD2</div>
+            <div class="panel-body fillet allheight logo259"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo260 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D3D3D3</div>
+            <div class="panel-body fillet allheight logo260"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo261 circular">&nbsp; &nbsp; &nbsp; &nbsp; #90EE90</div>
+            <div class="panel-body fillet allheight logo261"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo262 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFB6C1</div>
+            <div class="panel-body fillet allheight logo262"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo263 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFA07A</div>
+            <div class="panel-body fillet allheight logo263"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo264 circular">&nbsp; &nbsp; &nbsp; &nbsp; #20B2AA</div>
+            <div class="panel-body fillet allheight logo264"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo265 circular">&nbsp; &nbsp; &nbsp; &nbsp; #87CEFA</div>
+            <div class="panel-body fillet allheight logo265"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo266 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8470FF</div>
+            <div class="panel-body fillet allheight logo266"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo267 circular">&nbsp; &nbsp; &nbsp; &nbsp; #778899</div>
+            <div class="panel-body fillet allheight logo267"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo268 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B0C4DE</div>
+            <div class="panel-body fillet allheight logo268"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo269 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFFE0</div>
+            <div class="panel-body fillet allheight logo269"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo270 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00FF00</div>
+            <div class="panel-body fillet allheight logo270"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo271 circular">&nbsp; &nbsp; &nbsp; &nbsp; #32CD32</div>
+            <div class="panel-body fillet allheight logo271"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo272 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FAF0E6</div>
+            <div class="panel-body fillet allheight logo272"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo273 circular">&nbsp; &nbsp; &nbsp; &nbsp; #800000</div>
+            <div class="panel-body fillet allheight logo273"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo274 circular">&nbsp; &nbsp; &nbsp; &nbsp; #66CDAA</div>
+            <div class="panel-body fillet allheight logo274"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo275 circular">&nbsp; &nbsp; &nbsp; &nbsp; #0000CD</div>
+            <div class="panel-body fillet allheight logo275"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo276 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BA55D3</div>
+            <div class="panel-body fillet allheight logo276"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo277 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9370D8</div>
+            <div class="panel-body fillet allheight logo277"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo278 circular">&nbsp; &nbsp; &nbsp; &nbsp; #3CB371</div>
+            <div class="panel-body fillet allheight logo278"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo279 circular">&nbsp; &nbsp; &nbsp; &nbsp; #7B68EE</div>
+            <div class="panel-body fillet allheight logo279"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo280 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00FA9A</div>
+            <div class="panel-body fillet allheight logo280"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo281 circular">&nbsp; &nbsp; &nbsp; &nbsp; #48D1CC</div>
+            <div class="panel-body fillet allheight logo281"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo282 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C71585</div>
+            <div class="panel-body fillet allheight logo282"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo283 circular">&nbsp; &nbsp; &nbsp; &nbsp; #191970</div>
+            <div class="panel-body fillet allheight logo283"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo284 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5FFFA</div>
+            <div class="panel-body fillet allheight logo284"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo285 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFE4E1</div>
+            <div class="panel-body fillet allheight logo285"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo286 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFE4B5</div>
+            <div class="panel-body fillet allheight logo286"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo287 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFDEAD</div>
+            <div class="panel-body fillet allheight logo287"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo288 circular">&nbsp; &nbsp; &nbsp; &nbsp; #000080</div>
+            <div class="panel-body fillet allheight logo288"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo289 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FDF5E6</div>
+            <div class="panel-body fillet allheight logo289"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo290 circular">&nbsp; &nbsp; &nbsp; &nbsp; #808000</div>
+            <div class="panel-body fillet allheight logo290"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo291 circular">&nbsp; &nbsp; &nbsp; &nbsp; #6B8E23</div>
+            <div class="panel-body fillet allheight logo291"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo292 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFA500</div>
+            <div class="panel-body fillet allheight logo292"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo293 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF4500</div>
+            <div class="panel-body fillet allheight logo293"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo294 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DA70D6</div>
+            <div class="panel-body fillet allheight logo294"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo295 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EEE8AA</div>
+            <div class="panel-body fillet allheight logo295"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo296 circular">&nbsp; &nbsp; &nbsp; &nbsp; #98FB98</div>
+            <div class="panel-body fillet allheight logo296"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo297 circular">&nbsp; &nbsp; &nbsp; &nbsp; #AFEEEE</div>
+            <div class="panel-body fillet allheight logo297"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo298 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D87093</div>
+            <div class="panel-body fillet allheight logo298"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo299 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFEFD5</div>
+            <div class="panel-body fillet allheight logo299"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo300 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFDAB9</div>
+            <div class="panel-body fillet allheight logo300"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo301 circular">&nbsp; &nbsp; &nbsp; &nbsp; #CD853F</div>
+            <div class="panel-body fillet allheight logo301"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo302 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFC0CB</div>
+            <div class="panel-body fillet allheight logo302"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo303 circular">&nbsp; &nbsp; &nbsp; &nbsp; #DDA0DD</div>
+            <div class="panel-body fillet allheight logo303"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo304 circular">&nbsp; &nbsp; &nbsp; &nbsp; #B0E0E6</div>
+            <div class="panel-body fillet allheight logo304"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo305 circular">&nbsp; &nbsp; &nbsp; &nbsp; #800080</div>
+            <div class="panel-body fillet allheight logo305"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo306 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF0000</div>
+            <div class="panel-body fillet allheight logo306"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo307 circular">&nbsp; &nbsp; &nbsp; &nbsp; #BC8F8F</div>
+            <div class="panel-body fillet allheight logo307"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo308 circular">&nbsp; &nbsp; &nbsp; &nbsp; #4169E1</div>
+            <div class="panel-body fillet allheight logo308"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo309 circular">&nbsp; &nbsp; &nbsp; &nbsp; #8B4513</div>
+            <div class="panel-body fillet allheight logo309"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo310 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FA8072</div>
+            <div class="panel-body fillet allheight logo310"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo311 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F4A460</div>
+            <div class="panel-body fillet allheight logo311"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo312 circular">&nbsp; &nbsp; &nbsp; &nbsp; #2E8B57</div>
+            <div class="panel-body fillet allheight logo312"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo313 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFF5EE</div>
+            <div class="panel-body fillet allheight logo313"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo314 circular">&nbsp; &nbsp; &nbsp; &nbsp; #A0522D</div>
+            <div class="panel-body fillet allheight logo314"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo315 circular">&nbsp; &nbsp; &nbsp; &nbsp; #C0C0C0</div>
+            <div class="panel-body fillet allheight logo315"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo316 circular">&nbsp; &nbsp; &nbsp; &nbsp; #87CEEB</div>
+            <div class="panel-body fillet allheight logo316"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo317 circular">&nbsp; &nbsp; &nbsp; &nbsp; #6A5ACD</div>
+            <div class="panel-body fillet allheight logo317"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo318 circular">&nbsp; &nbsp; &nbsp; &nbsp; #708090</div>
+            <div class="panel-body fillet allheight logo318"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo319 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFAFA</div>
+            <div class="panel-body fillet allheight logo319"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo320 circular">&nbsp; &nbsp; &nbsp; &nbsp; #00FF7F</div>
+            <div class="panel-body fillet allheight logo320"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo321 circular">&nbsp; &nbsp; &nbsp; &nbsp; #4682B4</div>
+            <div class="panel-body fillet allheight logo321"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo322 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D2B48C</div>
+            <div class="panel-body fillet allheight logo322"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo323 circular">&nbsp; &nbsp; &nbsp; &nbsp; #008080</div>
+            <div class="panel-body fillet allheight logo323"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo324 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D8BFD8</div>
+            <div class="panel-body fillet allheight logo324"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo325 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FF6347</div>
+            <div class="panel-body fillet allheight logo325"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo326 circular">&nbsp; &nbsp; &nbsp; &nbsp; #40E0D0</div>
+            <div class="panel-body fillet allheight logo326"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo327 circular">&nbsp; &nbsp; &nbsp; &nbsp; #EE82EE</div>
+            <div class="panel-body fillet allheight logo327"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo328 circular">&nbsp; &nbsp; &nbsp; &nbsp; #D02090</div>
+            <div class="panel-body fillet allheight logo328"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo329 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5DEB3</div>
+            <div class="panel-body fillet allheight logo329"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo330 circular">&nbsp; &nbsp; &nbsp; &nbsp; #F5F5F5</div>
+            <div class="panel-body fillet allheight logo330"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo331 circular">&nbsp; &nbsp; &nbsp; &nbsp; #FFFF00</div>
+            <div class="panel-body fillet allheight logo331"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="logo332 circular">&nbsp; &nbsp; &nbsp; &nbsp; #9ACD32</div>
+            <div class="panel-body fillet allheight logo332"></div>
+        </div>
+    </div>
+    <h1 class="cfont" style="text-align: center;">渐变色</h1>
+    <hr id="gradation"/>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle1-1">&nbsp; &nbsp; &nbsp; &nbsp; #EEBD89</div>
+            <div class="panel-body fillet allheight color1"></div>
+            <div class="panel-heading text-right cfont">#D13ABD&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle1-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle2-1">&nbsp; &nbsp; &nbsp; &nbsp; #9600FF</div>
+            <div class="panel-body fillet allheight color2"></div>
+            <div class="panel-heading text-right cfont">#AEBAF8&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle2-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle3-1">&nbsp; &nbsp; &nbsp; &nbsp; #F6EA41</div>
+            <div class="panel-body fillet allheight color3"></div>
+            <div class="panel-heading text-right cfont">#F048C6&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle3-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle4-1">&nbsp; &nbsp; &nbsp; &nbsp; #EEBD89</div>
+            <div class="panel-body fillet allheight color4"></div>
+            <div class="panel-heading text-right cfont">#D13ABD&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle4-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle5-1">&nbsp; &nbsp; &nbsp; &nbsp; #0CCDA3</div>
+            <div class="panel-body fillet allheight color5"></div>
+            <div class="panel-heading text-right cfont">#C1FCD3&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle5-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle6-1">&nbsp; &nbsp; &nbsp; &nbsp; #C973FF</div>
+            <div class="panel-body fillet allheight color6"></div>
+            <div class="panel-heading text-right cfont">#AEBAF8&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle6-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle7-1">&nbsp; &nbsp; &nbsp; &nbsp; #F9957F</div>
+            <div class="panel-body fillet allheight color7"></div>
+            <div class="panel-heading text-right cfont">#F2F5D0&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle7-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle8-1">&nbsp; &nbsp; &nbsp; &nbsp; #B60F46</div>
+            <div class="panel-body fillet allheight color8"></div>
+            <div class="panel-heading text-right cfont">#D592FF&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle8-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle9-1">&nbsp; &nbsp; &nbsp; &nbsp; #A3C9E2</div>
+            <div class="panel-body fillet allheight color9"></div>
+            <div class="panel-heading text-right cfont">#9618F7&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle9-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle10-1">&nbsp; &nbsp; &nbsp; &nbsp; #FF0078</div>
+            <div class="panel-body fillet allheight color10"></div>
+            <div class="panel-heading text-right cfont">#F6EFA7&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle10-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle11-1">&nbsp; &nbsp; &nbsp; &nbsp; #849B5C</div>
+            <div class="panel-body fillet allheight color11"></div>
+            <div class="panel-heading text-right cfont">#BFFFC7&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle11-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle12-1">&nbsp; &nbsp; &nbsp; &nbsp; #E5AAC3</div>
+            <div class="panel-body fillet allheight color12"></div>
+            <div class="panel-heading text-right cfont">#9A52C7&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle12-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle13-1">&nbsp; &nbsp; &nbsp; &nbsp; #E65758</div>
+            <div class="panel-body fillet allheight color13"></div>
+            <div class="panel-heading text-right cfont">#771D32&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle13-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle14-1">&nbsp; &nbsp; &nbsp; &nbsp; #EF33B1</div>
+            <div class="panel-body fillet allheight color14"></div>
+            <div class="panel-heading text-right cfont">#F6E6BC&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle14-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle15-1">&nbsp; &nbsp; &nbsp; &nbsp; #EF33B1</div>
+            <div class="panel-body fillet allheight color15"></div>
+            <div class="panel-heading text-right cfont">#F6E6BC&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle15-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle16-1">&nbsp; &nbsp; &nbsp; &nbsp; #9FA5D5</div>
+            <div class="panel-body fillet allheight color16"></div>
+            <div class="panel-heading text-right cfont">#E8F5C8&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle16-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle17-1">&nbsp; &nbsp; &nbsp; &nbsp; #0C7BB3</div>
+            <div class="panel-body fillet allheight color17"></div>
+            <div class="panel-heading text-right cfont">#F2BAE8&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle17-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle18-1">&nbsp; &nbsp; &nbsp; &nbsp; #58126A</div>
+            <div class="panel-body fillet allheight color18"></div>
+            <div class="panel-heading text-right cfont">#F6B2E1&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle18-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle19-1">&nbsp; &nbsp; &nbsp; &nbsp; #E3FF73</div>
+            <div class="panel-body fillet allheight color19"></div>
+            <div class="panel-heading text-right cfont">#E27C39&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle19-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle20-1">&nbsp; &nbsp; &nbsp; &nbsp; #07A3B2</div>
+            <div class="panel-body fillet allheight color20"></div>
+            <div class="panel-heading text-right cfont">#D9ECC7&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle20-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle21-1">&nbsp; &nbsp; &nbsp; &nbsp; #DAFEA4</div>
+            <div class="panel-body fillet allheight color21"></div>
+            <div class="panel-heading text-right cfont">#F254A8&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle21-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle22-1">&nbsp; &nbsp; &nbsp; &nbsp; #CCFBFF</div>
+            <div class="panel-body fillet allheight color22"></div>
+            <div class="panel-heading text-right cfont">#EF96C5&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle22-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle23-1">&nbsp; &nbsp; &nbsp; &nbsp; #50D5B7</div>
+            <div class="panel-body fillet allheight color23"></div>
+            <div class="panel-heading text-right cfont">#067D68&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle23-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle24-1">&nbsp; &nbsp; &nbsp; &nbsp; #A96F44</div>
+            <div class="panel-body fillet allheight color24"></div>
+            <div class="panel-heading text-right cfont">#F2ECB6&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle24-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle25-1">&nbsp; &nbsp; &nbsp; &nbsp; #AF6480</div>
+            <div class="panel-body fillet allheight color25"></div>
+            <div class="panel-heading text-right cfont">#C3CEE5&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle25-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle26-1">&nbsp; &nbsp; &nbsp; &nbsp; #ED765E</div>
+            <div class="panel-body fillet allheight color26"></div>
+            <div class="panel-heading text-right cfont">#E3BDE5&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle26-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle27-1">&nbsp; &nbsp; &nbsp; &nbsp; #EAD6EE</div>
+            <div class="panel-body fillet allheight color27"></div>
+            <div class="panel-heading text-right cfont">#10F1EA&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle27-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle28-1">&nbsp; &nbsp; &nbsp; &nbsp; #7DC387</div>
+            <div class="panel-body fillet allheight color28"></div>
+            <div class="panel-heading text-right cfont">#DBE9EA&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle28-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle29-1">&nbsp; &nbsp; &nbsp; &nbsp; #F6A09A</div>
+            <div class="panel-body fillet allheight color29"></div>
+            <div class="panel-heading text-right cfont">#8A1F1D&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle29-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle30-1">&nbsp; &nbsp; &nbsp; &nbsp; #AE8BA1</div>
+            <div class="panel-body fillet allheight color30"></div>
+            <div class="panel-heading text-right cfont">#F2ECB6&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle30-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle31-1">&nbsp; &nbsp; &nbsp; &nbsp; #AE6480</div>
+            <div class="panel-body fillet allheight color31"></div>
+            <div class="panel-heading text-right cfont">#F6B2E1&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle31-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle32-1">&nbsp; &nbsp; &nbsp; &nbsp; #4B086D</div>
+            <div class="panel-body fillet allheight color32"></div>
+            <div class="panel-heading text-right cfont">#ACC0FE&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle32-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle33-1">&nbsp; &nbsp; &nbsp; &nbsp; #7E2423</div>
+            <div class="panel-body fillet allheight color33"></div>
+            <div class="panel-heading text-right cfont">#E3BDE5&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle33-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle34-1">&nbsp; &nbsp; &nbsp; &nbsp; #EAE5C9</div>
+            <div class="panel-body fillet allheight color34"></div>
+            <div class="panel-heading text-right cfont">#6CC6CB&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle34-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle35-1">&nbsp; &nbsp; &nbsp; &nbsp; #A96F44</div>
+            <div class="panel-body fillet allheight color35"></div>
+            <div class="panel-heading text-right cfont">#F6B2E1&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle35-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle36-1">&nbsp; &nbsp; &nbsp; &nbsp; #ED765E</div>
+            <div class="panel-body fillet allheight color36"></div>
+            <div class="panel-heading text-right cfont">#FEA858&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle36-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle37-1">&nbsp; &nbsp; &nbsp; &nbsp; #B51F1A</div>
+            <div class="panel-body fillet allheight color37"></div>
+            <div class="panel-heading text-right cfont">#F98EF6&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle37-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle38-1">&nbsp; &nbsp; &nbsp; &nbsp; #C5F9CA</div>
+            <div class="panel-body fillet allheight color38"></div>
+            <div class="panel-heading text-right cfont">#FFCC83&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle38-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle39-1">&nbsp; &nbsp; &nbsp; &nbsp; #00F1FF</div>
+            <div class="panel-body fillet allheight color39"></div>
+            <div class="panel-heading text-right cfont">#A7FFD8&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle39-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle40-1">&nbsp; &nbsp; &nbsp; &nbsp; #E5FFB4</div>
+            <div class="panel-body fillet allheight color40"></div>
+            <div class="panel-heading text-right cfont">#99E2FA&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle40-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle41-1">&nbsp; &nbsp; &nbsp; &nbsp; #FFEDD0</div>
+            <div class="panel-body fillet allheight color41"></div>
+            <div class="panel-heading text-right cfont">#A1E6FF&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle41-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle42-1">&nbsp; &nbsp; &nbsp; &nbsp; #9DBEFF</div>
+            <div class="panel-body fillet allheight color42"></div>
+            <div class="panel-heading text-right cfont">#FED9FF&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle42-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle43-1">&nbsp; &nbsp; &nbsp; &nbsp; #FFC3F0</div>
+            <div class="panel-body fillet allheight color43"></div>
+            <div class="panel-heading text-right cfont">#FDF784&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle43-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle44-1">&nbsp; &nbsp; &nbsp; &nbsp; #FDF0F0</div>
+            <div class="panel-body fillet allheight color44"></div>
+            <div class="panel-heading text-right cfont">#FEBBBB&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle44-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle45-1">&nbsp; &nbsp; &nbsp; &nbsp; #FF0FE3</div>
+            <div class="panel-body fillet allheight color45"></div>
+            <div class="panel-heading text-right cfont">#FFF672&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle45-2"></div>
+        </div>
+    </div>
+    <div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle46-1">&nbsp; &nbsp; &nbsp; &nbsp; #FFCBB5</div>
+            <div class="panel-body fillet allheight color46"></div>
+            <div class="panel-heading text-right cfont">#E0B9FF&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle46-2"></div>
+        </div>
+    </div>
+	<div class="col-xs-6 col-md-3">
+        <div class="panel panes">
+            <div class="panel-heading cfont"><img class="circular cirle47-1">&nbsp; &nbsp; &nbsp; &nbsp; #FF9A9E</div>
+            <div class="panel-body fillet allheight color47"></div>
+            <div class="panel-heading text-right cfont">#FAD0C4&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle47-2"></div>
+        </div>
+    </div>
+	<div class="col-xs-6 col-md-3">
+	    <div class="panel panes">
+	        <div class="panel-heading cfont"><img class="circular cirle48-1">&nbsp; &nbsp; &nbsp; &nbsp; #84FAB0</div>
+	        <div class="panel-body fillet allheight color48"></div>
+	        <div class="panel-heading text-right cfont">#8FD3F4&nbsp; &nbsp; &nbsp; &nbsp; <img class="circular cirle48-2"></div>
+	    </div>
+	</div>
+	<a href="http://color.oulu.me/" class='scroll-to-cnxiaobai' title="免费的渐变背景CSS3样式 | oulu.me" style="margin-bottom: 480px;" target="_blank">
+		<img src="./static/img/color.oulu.me.jpg" style="width: 35px;height: 35px;margin-top: 8px;border-top-left-radius: 10px;border-bottom-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;">
+	</a>
+	<a href="https://uigradients.com/" class='scroll-to-cnxiaobai' title="https://uigradients.com/" style="margin-bottom: 420px;" target="_blank">
+		<svg t="1620900216327" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1929" style="height:35px;width: 35px;margin-top: 8px;"><path d="M495.468758 991.155033c-16.782222 0-34.367582-1.606275-53.559216-3.998955l-4.802091-0.803137c-135.880784-20.781176-228.592941-152.663007-232.591895-158.268235-131.095425-199.830588-65.539346-402.053856 58.344575-513.957647 123.097516-111.903791 328.516601-159.857778 508.352418-15.175948 115.902745 93.515294 151.073464 223.004444 152.663007 228.592941v1.589543c16.782222 91.122614 3.195817 158.268235-40.759216 201.42013-67.145621 64.736209-178.246275 43.955033-193.422222 40.759216-20.781176-2.39268-35.973856 3.998954-47.167582 17.58536-11.996863 15.19268-14.389542 35.170719-10.390588 47.167581 11.193725 33.564444 12.783268 59.147712 4.802091 78.339347-23.173856 50.380131-70.324706 76.749804-141.469281 76.749804z m-51.149804-52.756079" fill="#B3F995" p-id="1930"></path><path d="M468.329412 1009.62719c-21.366797 0-43.754248-2.041307-68.183007-5.086536l-6.107189-1.020654C221.046797 977.049935 103.002353 809.144052 97.915817 802.032941c-166.885229-254.410458-83.442614-511.866144 74.290196-654.339346C328.91817 5.220392 590.456471-55.834771 819.417516 128.351373c147.559739 119.065098 192.334641 283.90902 194.375948 291.036862v2.024575c21.366797 116.003137 4.065882 201.487059-51.902745 256.451765-85.483922 82.421961-226.936471 55.968627-246.261961 51.902745-26.453333-3.061961-45.795556 5.086536-60.051242 22.387451-15.259608 19.342222-18.321569 44.774902-13.235032 60.051242 14.238954 42.733595 16.280261 75.31085 6.107189 99.722876-29.498562 64.100392-89.549804 97.698301-180.120261 97.698301z m-65.121046-67.162353l6.10719 1.020653c98.702222 15.259608 158.753464-4.065882 183.16549-59.013856 0-1.020654 5.086536-14.255686-8.148497-54.947974-13.235033-36.626405-3.045229-84.463268 23.408105-117.023791 27.473987-34.60183 68.183007-49.861438 116.003137-44.774902l3.061961 1.020654c1.020654 0 127.196863 27.473987 192.33464-35.622484 39.688366-38.667712 51.886013-105.830065 34.60183-199.445751-4.065882-13.235033-47.820131-156.712157-174.013072-257.455687-199.445752-162.819346-428.423529-108.892026-566.814117 16.280262C85.71817 308.471634-7.914248 529.300915 148.797908 768.435033c1.020654 0 107.871373 152.646275 254.410458 174.029804z m0 0" fill="#00B48A" p-id="1931"></path><path d="M164.074248 530.321569c0 33.715033 27.340131 61.055163 61.055164 61.055163 33.715033 0 61.055163-27.340131 61.055163-61.055163 0-33.715033-27.340131-61.055163-61.055163-61.055164-33.731765 0-61.055163 27.323399-61.055164 61.055164z m0 0M235.302484 347.139346c0 33.715033 27.340131 61.055163 61.055163 61.055164 33.731765 0 61.055163-27.340131 61.055163-61.055164 0-33.715033-27.340131-61.055163-61.055163-61.055163-33.715033 0-61.055163 27.340131-61.055163 61.055163z m0 0M418.467974 245.375163c0 33.715033 27.340131 61.055163 61.055163 61.055164 33.715033 0 61.055163-27.340131 61.055164-61.055164s-27.340131-61.055163-61.055164-61.055163c-33.715033 0-61.055163 27.340131-61.055163 61.055163z m0 0M621.99634 296.257255c0 33.715033 27.340131 61.055163 61.055163 61.055163 33.715033 0 61.055163-27.340131 61.055164-61.055163 0-33.715033-27.340131-61.055163-61.055164-61.055163-33.715033 0-61.055163 27.340131-61.055163 61.055163z m0 0M723.760523 459.093333c0 33.715033 27.340131 61.055163 61.055163 61.055164 33.715033 0 61.055163-27.340131 61.055164-61.055164 0-33.731765-27.340131-61.055163-61.055164-61.055163-33.715033-0.016732-61.055163 27.323399-61.055163 61.055163z m0 0" fill="#00B48A" p-id="1932"></path></svg>
+	</a>
+	<a href="https://gradient.shapefactory.co/" class='scroll-to-cnxiaobai' title="https://gradient.shapefactory.co/" style="margin-bottom: 360px;" target="_blank">
+		<svg t="1620900316799" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3098" style="height:35px;width: 35px;margin-top: 8px;"><path d="M512 63.987502c14.497169 0 28.294474 5.798867 38.892404 16.396798 11.097832 11.197813 17.196641 26.094903 17.096661 41.791837-0.299941 55.189221-13.097442 119.776606-37.892599 191.862527-5.798867 16.99668-11.997657 33.193517-18.096466 48.390549-6.29877-15.596954-12.497559-32.193712-18.496387-49.590314C468.608475 240.353056 456.010935 175.365749 456.010935 119.976567c0-30.793986 25.095099-55.989065 55.989065-55.989065z m0-63.987502h-0.199961C445.612966 0.09998 392.023433 53.789494 392.023433 119.976567c0 144.471783 73.98555 303.740676 105.77934 365.428627 2.999414 5.798867 8.598321 8.698301 14.197227 8.698301s11.197813-2.899434 14.197227-8.698301c31.593829-61.38801 104.879516-219.057215 105.77934-362.729154C632.376489 55.889084 578.786956 0 512 0zM512 661.470806c6.29877 15.596954 12.497559 32.193712 18.496387 49.590315 24.895138 72.685804 37.492677 137.57313 37.492678 193.062292 0 30.793986-25.095099 55.989065-55.889085 55.989065h-0.09998c-14.497169 0-28.294474-5.798867-38.892404-16.496778-11.097832-11.197813-17.196641-26.094903-17.096661-41.791837 0.299941-55.189221 13.097442-119.776606 37.892599-191.862527 5.798867-17.096661 11.997657-33.293497 18.096466-48.49053z m0-131.574301c-5.598906 0-11.197813 2.899434-14.197227 8.698301-31.593829 61.28803-104.879516 218.957235-105.77934 362.729154-0.399922 66.786956 53.189611 122.67604 119.976567 122.67604h0.199961c66.187073-0.09998 119.776606-53.789494 119.776606-119.976567 0-144.471783-73.98555-303.740676-105.77934-365.428627-2.999414-5.798867-8.598321-8.698301-14.197227-8.698301zM660.371021 591.384495c16.596758 2.399531 34.193322 5.298965 52.189807 8.798282 75.385276 14.79711 137.873072 36.292912 185.863698 63.987502 26.694786 15.396993 35.89299 49.690295 20.495997 76.385081-4.899043 8.598321-11.797696 15.396993-20.495997 20.196056-8.598321 4.799063-18.396407 7.298574-28.394454 7.298574-10.397969 0-20.695958-2.799453-29.59422-7.998438-47.690685-27.894552-97.181019-71.186096-147.271236-128.774848-11.597735-13.597344-22.695567-26.994728-32.793595-39.892209z m-100.080453-73.785589c-12.497559 0-20.296036 13.897286-13.397383 24.695177 37.392697 57.988674 137.273189 200.360867 261.248975 272.94669 19.396212 11.397774 40.792033 16.796719 61.987893 16.79672 41.691857 0 82.183948-21.09588 104.279633-59.588362 32.993556-57.388791 13.297403-130.674478-43.991408-163.768014-125.075571-72.185901-300.041398-87.782855-369.327866-91.182191-0.299941 0.09998-0.499902 0.09998-0.799844 0.09998zM476.10701 481.405975c-37.292716-57.988674-137.273189-200.360867-261.248974-272.94669-19.396212-11.397774-40.792033-16.796719-61.987893-16.796719-41.691857 0-82.183948 21.09588-104.279633 59.588362-32.993556 57.388791-13.297403 130.674478 43.991408 163.768014 125.075571 72.285882 300.041398 87.782855 369.327865 91.182191h0.799844c12.497559-0.199961 20.296036-14.097247 13.397383-24.795158z m-165.667643-57.888693c-75.385276-14.79711-137.873072-36.292912-185.863698-63.987503-26.694786-15.396993-35.89299-49.690295-20.495997-76.385081 4.899043-8.598321 11.797696-15.396993 20.495997-20.196055 8.49834-4.799063 18.396407-7.298574 28.394454-7.298575 10.397969 0 20.695958 2.799453 29.6942 8.098419 47.690685 27.894552 97.181019 71.286077 147.271236 128.774848 11.797696 13.497364 22.795548 26.994728 32.893576 39.892209-16.796719-2.499512-34.393283-5.398946-52.389768-8.898262zM363.628979 590.684632c-10.297989 13.197422-21.595782 26.894747-33.69342 40.792033-50.490139 57.888694-100.380394 101.280219-148.371021 128.974809-8.598321 4.999024-17.996485 7.498535-27.894552 7.498536-9.698106 0-19.296231-2.499512-27.694591-7.298575-8.698301-4.899043-15.796915-11.897676-20.795938-20.695958-7.298574-12.59754-9.098223-27.49463-5.198984-41.891818 4.099199-15.297012 13.997266-27.994532 27.69459-35.793009 47.990627-27.294669 110.278461-48.59051 185.163836-63.087678 17.396602-3.299356 34.493263-6.198789 50.79008-8.49834zM463.709432 516.899043h-0.799844c-68.886546 3.299356-242.152705 18.696348-367.028315 89.782465C37.692638 639.875024 16.196837 714.360476 49.690295 772.14919c22.195665 38.392501 62.487795 59.888303 103.879711 59.888303 20.396016 0 40.991994-5.198985 59.888303-16.096856 125.075571-72.185901 226.055848-215.957821 263.648506-274.346417 6.898653-10.697911-0.899824-24.695177-13.397383-24.695177zM871.429799 255.650068c19.996095 0 38.592462 10.697911 48.59051 27.894552 7.298574 12.59754 9.098223 27.49463 5.198984 41.891818-4.099199 15.297012-13.997266 27.994532-27.694591 35.793009-47.990627 27.294669-110.278461 48.59051-185.163835 63.087679-17.596563 3.399336-34.793204 6.198789-50.990041 8.59832 10.297989-13.197422 21.595782-26.894747 33.693419-40.792033 50.490139-57.888694 100.380394-101.280219 148.371022-128.974809 8.698301-4.999024 18.096466-7.498535 27.994532-7.498536z m0-63.987502c-20.396016 0-40.991994 5.198985-59.888303 16.096856-125.075571 72.185901-226.055848 215.957821-263.648506 274.346417-6.898653 10.697911 0.899824 24.695177 13.397383 24.695176h0.799844c68.886546-3.299356 242.152705-18.696348 367.028315-89.782464 58.088655-33.093536 79.684437-107.578988 46.190978-165.367702-22.195665-38.592462-62.487795-60.088264-103.879711-59.988283z" p-id="3099" fill="#1afa29"></path></svg>
+	</a>
+	<a href="https://webkul.github.io/coolhue/" class='scroll-to-cnxiaobai' title="https://webkul.github.io/coolhue/" style="margin-bottom: 300px;" target="_blank">
+		<img src="./static/img/coolhue.png" style="width: 35px;height: 35px;margin-top: 8px;">
+	</a>
+	<a href="https://webgradients.com/" class='scroll-to-cnxiaobai' title="https://webgradients.com/" style="margin-bottom: 240px;" target="_blank">
+		<img src="./static/img/webgradients.png" style="width: 35px;height: 35px;margin-top: 8px;">
+	</a>
+	<a href="https://colorffy.com/" class='scroll-to-cnxiaobai' title="https://colorffy.com/" style="margin-bottom: 180px;" target="_blank">
+		<svg style="width: 35px;height: 35px;margin-top: 8px;" viewBox="0 0 213 120" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0)"><path d="M9.48226 119.076C1.29763 115.283 -2.29563 105.502 1.49725 97.3172L42.0212 10.4803C45.9138 2.19582 55.5957 -1.29762 63.8801 2.49526C72.0647 6.28813 75.658 16.0698 71.7653 24.2544L31.2414 111.091C27.4485 119.376 17.6669 122.869 9.48226 119.076ZM77.5544 110.692L118.178 23.6555C121.971 15.4709 118.478 5.68926 110.293 1.89638C102.108 -1.8965 92.4265 1.69676 88.5338 9.88139L47.8103 96.8181C44.0174 105.003 47.5108 114.784 55.6955 118.577C63.9799 122.47 73.6617 118.877 77.5544 110.692ZM124.566 110.792L165.09 23.955C168.883 15.7703 165.389 5.9887 157.205 2.19582C149.02 -1.59706 139.239 1.89638 135.446 10.081L94.822 96.9179C91.0291 105.103 94.5226 114.884 102.707 118.677C110.892 122.57 120.673 119.076 124.566 110.792ZM170.68 110.692L211.403 23.3561C215.196 15.1715 211.703 5.38982 203.518 1.59694C195.333 -2.19593 185.552 1.29751 181.759 9.48214L141.035 96.8181C137.242 105.003 140.736 114.784 148.92 118.577C157.105 122.47 166.887 118.877 170.68 110.692Z" fill="url(#paint0_linear)"/></g><defs><linearGradient id="paint0_linear" x1="-0.00103416" y1="60.3067" x2="212.991" y2="60.3067" gradientUnits="userSpaceOnUse"><stop stop-color="#1F2AFF"/><stop offset="0.99" stop-color="#1F2AFF"/></linearGradient><clipPath id="clip0"><rect width="213" height="120.574" fill="white"/></clipPath></defs></svg>
+	</a>
+	<a href="#solid-color" class='scroll-to-cnxiaobai' title="纯色" style="margin-bottom: 120px;">
+		<div style="color: #FFFFFF;width: 35;height: 35;margin-top: 33%;">纯色</div>
+	</a>
+	<a href="#gradation" class='scroll-to-cnxiaobai' title="渐变色" style="margin-bottom: 60px;">
+		<div style="color: #FFFFFF;width: 35;height: 35;margin-top: 33%;">渐变色</div>
+	</a>
+    <a href="" class='scroll-to-top' title="top"></a>
+</div>
+<script src="./static/js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./static/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="./static/js/index.js" type="text/javascript" charset="utf-8"></script>
+<!--鼠标点击特效-->
+<script src="./static/js/click.min.js"></script>
+<!--页面动态樱花-->
+<script type="text/javascript"src="./static/js/sakura-original.js"></script>
+</body>
+</html>
